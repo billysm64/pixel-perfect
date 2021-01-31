@@ -1,0 +1,43 @@
+body {
+  background-color: #F4F4F4
+}
+
+button {
+  background-color: #FFFFFF;
+  border: #D8856D solid 1px;
+  color: #D8856D;
+}
+
+.socials a {
+  width: 10px;
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+  max-width: 90vw;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1,h2,button {
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.articlefooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  margin-right: 25px;
+}
