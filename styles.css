@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
 * {
-  font-family: Lato, Oswald, Playfair+Display;
+  font-family: Lato;
 }
 
 body {
@@ -75,8 +78,13 @@ aside {
   position: relative;
 }
 
+.navlinks {
+  margin-left: 200px;
+}
+
 .navlinks a {
   margin-right: 10px;
+  font-size: 11px;
 }
 
 h1,h2,button {
@@ -119,13 +127,17 @@ main {
   top: 20%;
   left: 50%;
   transform: translateX(-50%);
+  transform: translateY(-522px);
   /* right: 50px; */
 }
 
 .portrait-img {
-  width: 100%;
-  border: 10px solid white;
+  position: relative;
+  width: 155px;
+  height: 155px;
+  border: 7px solid white;
   border-radius: 50%;
+  transform: translateX(-50%)
 }
 
 article {
@@ -143,8 +155,9 @@ article {
 
 h2 {
   color: #D88361;
-  font-size: 12px;
-  margin-top: 42px;
+  font-size: 11px;
+  margin-top: 43px;
+  letter-spacing: 1px
 }
 
 h1 {
