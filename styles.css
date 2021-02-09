@@ -79,12 +79,13 @@ aside {
 }
 
 .navlinks {
-  margin-left: 200px;
+  margin-left: 148px;
 }
 
 .navlinks a {
-  margin-right: 10px;
+  margin-right: 22px;
   font-size: 11px;
+  letter-spacing: 1px;
 }
 
 h1,h2,button {
@@ -184,9 +185,7 @@ h1 {
 .footerimg {
   width: 175px;
   height: 250px;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+  float: left;
 }
 
 .follow {
@@ -217,9 +216,9 @@ h1 {
   width: 200px;
 }
 
-.latestposts {
+.latestpost {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .latestpost p time {
@@ -230,4 +229,9 @@ h1 {
   width: 100px;
   /* display: flex;
   justify-content: space-between; */
+}
+
+.latest-post-text {
+  display: inline-block;
+  padding-left: 4px;
 }
