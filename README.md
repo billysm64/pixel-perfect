@@ -1,3 +1,9 @@
+* How do I always center the portrait photo
+* How do I center the actual images inside the circles of the socials?
+* How to fully deploy
+* How to get the precise width an image etc. is supposed to be from a mockup
+* Arrow at bottom right?
+
 ### Description
 
 As a web developer, you will sometimes be tasked with creating an html page simply from an image file. In this assignment, you'll take the given image and turn it into a functioning website.
@@ -8,7 +14,7 @@ As a web developer, you will sometimes be tasked with creating an html page simp
   * `index.html`
   * `normalize.css`
   * `styles.css`
-  * `images` 
+  * `images`
 
 ### Requirements
 
